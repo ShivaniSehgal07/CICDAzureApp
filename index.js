@@ -35,7 +35,7 @@ async function connectToDatabase() {
   }
 }
 
-connectToDatabase();
+await connectToDatabase();
 
 // Routes
 app.get('/', async (req, res) => {
