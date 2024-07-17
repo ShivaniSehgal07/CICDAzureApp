@@ -18,7 +18,7 @@ const config = {
     user: 'azureuser',
     password: 'P@ssw0rdssss',
     server: 'cicdwebapp209.database.windows.net',
-    database: 'Expenses',
+    database: 'cicdazureapp209',
   options: {
     encrypt: true,
     enableArithAbort: true
